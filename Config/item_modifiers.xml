@@ -1,0 +1,21 @@
+<config>
+	
+	<remove xpath="/item_modifiers/item_modifier[@name='modGunMeleeBlessedMetal']"></remove>
+	<append xpath="/item_modifiers">
+	<item_modifier name="BlessedMetal" installable_tags="sledge,blunt,club,melee,meleeWeapon,gun,shotgun,turretRanged" modifier_tags="specialDamage" type="attachment">
+		<property name="UnlockedBy" value="BlessedMetalSchematic"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<!--150% increase in damage to zombies.\nAttaches to clubs and sledges only.-->
+		<effect_group tiered="false">
+			<passive_effect name="EntityDamage" operation="perc_add" value="1.5"/>
+		</effect_group>
+		<property name="EconomicValue" value="3000"/>
+		<property name="CustomIcon" value="BlessedMetal"/>
+	</item_modifier>
+	</append>
+	
+</config>
+	
+	
+	

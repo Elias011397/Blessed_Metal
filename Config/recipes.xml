@@ -1,0 +1,13 @@
+<config>
+	<append xpath="/recipes">
+	
+		<recipe name="BlessedMetal" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+			<ingredient name="resourceRawDiamond" count="5"/>
+			<ingredient name="resourceSilverNugget" count="30"/>
+			<ingredient name="resourceGoldNugget" count="15"/>
+			<ingredient name="resourceForgedSteel" count="25"/>
+			<ingredient name="resourceForgedIron" count="50"/>
+		</recipe>
+		
+	</append>
+</config>

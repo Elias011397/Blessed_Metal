@@ -1,0 +1,12 @@
+<config>
+
+
+	<append xpath="/lootcontainers/lootgroup[@name='groupValuablesExtraLarge']">
+		<item name="BlessedMetalSchematic" prob=".1" count="1"/>
+		<item name="BlessedMetal" prob=".2" count="1"/>
+	</append>
+	
+
+
+	
+</config>

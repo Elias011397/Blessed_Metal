@@ -1,0 +1,3 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+BlessedMetalMod,item_modifiers,items,,,Blessed Metal Mod
+modGunMeleeBlessedMetalDesc,item_modifiers,Mod,,,"150% increase in damage to zombies.\nAttaches to clubs and sledges only."
